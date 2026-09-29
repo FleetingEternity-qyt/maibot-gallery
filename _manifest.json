@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "id": "github.FleetingEternity-qyt.maibot-gallery",
+  "version": "1.0.0",
+  "name": "麦麦的图库",
+  "description": "麦麦的私人相册，自动识别图片标签，并在群聊中模拟自主拍摄发送。",
+  "author": {
+    "name": "FleetingEternity-qyt",
+    "url": "https://github.com/FleetingEternity-qyt"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/FleetingEternity-qyt/maibot-gallery"
+  },
+  "host_application": {
+    "min_version": "1.2.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.5.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "llm.generate",
+    "send.text",
+    "send.image",
+    "message.get_by_id",
+    "chat.open_session",
+    "api.call"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN"
+  },
+  "plugin_type": "extension"
+}
