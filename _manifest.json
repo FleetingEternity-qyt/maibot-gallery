@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "id": "github.FleetingEternity-qyt.maibot-gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "麦麦的图库",
   "description": "麦麦的私人相册，自动识别图片标签，并在群聊中模拟自主拍摄发送。",
   "author": {
